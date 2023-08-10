@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <NavBar />
       <Spacer height="64px" width="100%" />
-      <div className={`safe-area ${cardContainer}`}>{/* <ItemCard /> */}</div>
+      <div className={`safe-area ${cardContainer}`}></div>
     </main>
   );
 }
