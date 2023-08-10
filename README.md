@@ -5,3 +5,7 @@
 - NextJS
 - Typescript
 - Tailwind CSS
+
+### Packages
+
+- [Swiper](https://swiperjs.com/get-started)
