@@ -1,4 +1,3 @@
-import ItemCard from "@/components/ItemCard";
 import NavBar from "@/components/NavBar";
 import Spacer from "@/components/Spacer";
 import styles from "./home.module.css";

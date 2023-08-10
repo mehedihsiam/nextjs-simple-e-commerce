@@ -4,6 +4,7 @@
 }
 
 .outlined:hover {
+<<<<<<< HEAD
   @apply bg-primary text-white;
 }
 
@@ -11,3 +12,16 @@
   @apply py-1 w-auto px-4 rounded-full border-2 text-white border-primary bg-primary;
   transition: all 0.5s;
 }
+=======
+  @apply bg-primary text-foreground;
+}
+
+.filled {
+  @apply py-1 w-auto px-4 rounded-full border-2 text-foreground border-primary bg-primary;
+  transition: all 0.5s;
+}
+
+.filled:hover {
+  @apply text-primary border-foreground bg-foreground;
+}
+>>>>>>> 4c25f40134da561c77bf4307cadcbdf05e8a488c
