@@ -1,3 +1,4 @@
+import COLORS from "./src/constants/COLORS";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -10,7 +11,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#7cb342",
+        primary: COLORS.primary,
+        primaryHalf: COLORS.primaryHalf,
       },
     },
   },
