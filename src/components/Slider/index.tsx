@@ -16,6 +16,9 @@ const Slider = () => {
       <SwiperSlide>
         <p>Slide 3</p>
       </SwiperSlide>
+      <SwiperSlide>
+        <p>Slide 3</p>
+      </SwiperSlide>
     </Swiper>
   );
 };
