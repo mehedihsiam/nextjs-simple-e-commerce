@@ -1,0 +1,13 @@
+.outlined {
+  @apply py-1 px-4 rounded-full border-2 text-primary border-primary;
+  transition: all 0.5s;
+}
+
+.outlined:hover {
+  @apply bg-primary text-white;
+}
+
+.filled {
+  @apply py-1 w-auto px-4 rounded-full border-2 text-white border-primary bg-primary;
+  transition: all 0.5s;
+}

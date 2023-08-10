@@ -1,0 +1,19 @@
+.card {
+  @apply h-[320px]  w-[250px] rounded-[10px] bg-gray-200 box-border relative;
+}
+
+.cardImage {
+  @apply rounded-se-[10px] rounded-ss-[10px] h-[220px] w-auto;
+}
+
+.infoContainer {
+  @apply w-full h-[100px] rounded-ee-[10px] rounded-es-[10px] py-2 px-3 flex flex-col justify-evenly;
+}
+
+.name {
+  @apply text-sm text-primary font-bold;
+}
+
+.price {
+  @apply text-[12px];
+}

@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.safe-area {
+  @apply w-10/12 max-w-7xl mx-auto h-full;
+}
+
+.primary-text {
+  @apply text-primary;
+}
+
+::selection {
+  @apply bg-primary text-white;
+}

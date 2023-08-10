@@ -1,0 +1,26 @@
+.outlined {
+  @apply py-1 px-4 rounded-md border-2 text-primary border-primary;
+  transition: all 0.5s;
+}
+
+.outlined:hover {
+  @apply bg-primary;
+}
+.whiteOutlined {
+  @apply py-1 px-4 rounded-md border-2 text-white border-white;
+  transition: all 0.5s;
+}
+
+.whiteOutlined:hover {
+  @apply bg-white text-primary;
+}
+
+.filled {
+  @apply py-1 px-4 rounded-md border-2 text-white border-primary bg-primary;
+  transition: all 0.5s;
+}
+
+.whiteFilled {
+  @apply py-1 px-4 rounded-md border-2 text-primary border-white bg-white;
+  transition: all 0.5s;
+}
